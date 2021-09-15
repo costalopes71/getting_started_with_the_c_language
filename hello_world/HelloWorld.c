@@ -9,5 +9,7 @@
 int main() {
     printf("Hello World! =D\n");
     
+    printf("Including a new line! xD\n");
+
     return 0;
 }

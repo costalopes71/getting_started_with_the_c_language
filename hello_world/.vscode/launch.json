@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "gcc - Criar e depurar o arquivo ativo",
+            "name": "(gdb) Iniciar",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/hello_world/HelloWorld",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -21,9 +21,7 @@
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
-            ],
-            "preLaunchTask": "C/C++: gcc arquivo de build ativo",
-            "miDebuggerPath": "/usr/bin/gdb"
+            ]
         }
     ]
 }
